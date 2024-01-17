@@ -7,7 +7,11 @@ public class s1 {
 	public static void main(String[] args) {
 		WebDriver driver = new ChromeDriver();
 		driver.get("https://google.com");
-		driver.close();
+		System.out.println(driver.getTitle());
+		System.out.println(driver.getCurrentUrl());
+		System.out.println(driver.getPageSource());
+//		driver.close();
+
 		// сhromedriver - для гугл
 		// gekodriver - для файер фокс
 	}
