@@ -8,7 +8,7 @@ public class qatools {
 	public static void main(String[] args) {
 
 		// Set the path to your ChromeDriver executable
-		System.setProperty("web driver.chrome.driver", "path/to/chromedriver");
+		//System.setProperty("web driver.chrome.driver", "/home/bekmyrza/Downloads/chromedriver-linux64");
 
 		// Create ChromeOptions instance
 		ChromeOptions options = new ChromeOptions();
