@@ -18,7 +18,7 @@ public class dateprjet {
 		Thread.sleep(300L);
 
 		driver.findElement(By.xpath("//*[@id=\"main-container\"]/div/div[1]/div[3]/div[2]/div[3]/div/div[1]/div[2]/div[2]/div[2]/div[1]/div[2]/div[2]")).click();
-		Thread.sleep(300L);x
+		Thread.sleep(300L);
 
 		driver.findElement(By.xpath("/html/body/div[2]/div/div/div[1]/div[3]/div[2]/div[3]/div/div[1]/div[2]/div[2]/div[2]/div[2]/div[2]/div[1]")).click();
 		Thread.sleep(300L);
